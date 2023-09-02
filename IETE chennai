@@ -1,0 +1,365 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,300;1,500;1,900&display=swap" rel="stylesheet">
+       
+    <title>IETE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+
+    <body background="C:\Users\yogasri\Downloads\WhatsApp Image 2023-08-29 at 9.21.46 PM.jpeg">
+<section class="header">
+<nav>
+    <a href="IETE project.html"><img src="c:\Users\yogasri\Downloads\logo.png" height="95cm" width="60cm"></a><h1>IETE</h1>
+<div class="nav-links" id="navLinks">
+    <ul>
+        <li>
+           <a href="project1.html">HOME</a> 
+        </li>  
+    <li>
+        <a href="about.html">ABOUT</a>
+        </li>
+    <li>
+        <a href="events.html">EVENTS</a>
+    </li>
+    <li>
+        <a href="chencon.html">CHENCON</a> 
+     </li> 
+     <li>
+        <a href="membership.html">MEMBERSHIP</a> 
+     </li> 
+    <li>
+        <a href="cont.html">CONTACT</a>
+    </li>
+        
+    </ul>
+</div>
+
+</nav>
+<div class="text-box">
+   
+    <h2>
+        IETE
+    </h2>
+    <p>The Institution of Electronics 
+        AND Telecommunication Engineers, Chennai<h6> "Learning Today,
+        Leading Tomorrow "</h6>
+    </p>
+        <a href="about.html" class="hero-btn">READ MORE</a>
+        <br>
+        <br>
+        <h3>
+            "INNOVATION FOR THE PEOPLE AND BY THE <br>PEOPLE IS THE REACTION OF OUR NEW INDIA"
+        </h3>
+        <h4>
+            - NARENDRA MODI, HON’BLE PRIME MINISTER OF INDIA.
+        </h4>
+        <h5>
+            Chennai Centre of IETE is committed to attain commanding heights 
+            and achieve the status of “Centre of Excellence” in Technical, Engineering & Management 
+            education by harnessing the best practices in educational innovation and through its concerted 
+            endeavors like quality teaching, 
+            industrial consultancy and training to the aspirants including corporate training.
+        </h5>
+
+</div>
+
+</section>
+<br>
+<div class="grid">
+    <div class="grid-item">
+        <div class="card">
+            <img class="card-img" src="C:\Users\yogasri\Downloads\Slide4.jpeg" alt="PROFESSIONAL RESUME WRITING" height="200" width="250">
+            <div class="card-content">
+                <h6 class="card-header">PROFESSIONAL RESUME WRITING</h6>
+            <p class="card-text">
+                17th October 2020 <br>
+                (Saturday)
+
+Mr.M.Vigneshwaran <br>
+(Softskill Trainer/ e<br>
+-learning developer) gave <br>
+a guidance session on <br>
+RESUME building in a<br> Professional manner
+            </p>
+            
+
+            </div>           
+        </div>
+    </div>
+</div>
+<div class="grid">
+    <div class="grid-item">
+        <div class="card">
+            <img class="card-img" src="C:\Users\yogasri\Downloads\sli2.jpeg" alt="EVOLUTION OF COMPUTING AND SKILL SETS FOR THE FUTURE" height="200" width="250">
+            <div class="card-content">
+                <h6 class="card-header">EVOLUTION OF COMPUTING<br> AND<br> SKILL SETS FOR THE FUTURE</h6>
+            <p class="card-text">
+                Mr.MallikMahalingam<br> CEO,Springpath (CISCO) commenced with the 
+                evolution of hardware and operating software
+            </p>
+            
+
+            </div>           
+        </div>
+    </div>
+</div>
+
+<div class="grid">
+    <div class="grid-item">
+        <div class="card">
+            <img class="card-img" src="C:\Users\yogasri\Downloads\sli5.jpeg" alt="5G AND IT’S HISTORYs" height="200" width="250">
+            <div class="card-content">
+                <h6 class="card-header">5G AND IT’S HISTORYs</h6>
+            <p class="card-text">
+                20/09/2020<br>
+                Mr.SunderPalaniraj<br> (Director IC-design, TDKInvenSense) <br>
+gave a technical talk on communication networks
+            </div>
+            </div>
+            </div>
+</body>
+</html>
+CSS FILE
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+h1{
+    color: black;
+    font-size: 60px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;  
+background-position: center;
+background-size: cover;
+position: relative;
+height: 105vh;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li{
+    color: #b8f61a;
+    text-decoration: none;
+    font-size:13px;
+}
+select{
+    color: #241de6;
+    text-decoration: none;
+    font-size:13px;  
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f436ce;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #047270;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h2{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #610c61;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #19831d;
+    border: 1px solid #19831d;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #e4f436;
+    background: #e4f436;
+    transition: 1s;
+}
+nav .fa{
+    display: none;
+}
+
+
+@media(max-width:700px){
+    .text-box h2{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #0b8634;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+
+    }
+    nav .fa{
+        display: block;
+        color: #19831d;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+        }
+        .nav-links ul{
+            padding: 30px;
+
+        }
+       
+}
+h6{
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(234, 78, 161);
+}
+h3{
+    color: rgb(238, 11, 79);
+    font-size: 30px;
+    font-weight: bold;
+}
+h4{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(97, 97, 97);
+}
+h5{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    left: 5cm;
+}
+select{
+    border-style: none;
+    outline-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 12px;
+    color: rgb(3, 155, 182);
+}
+.grid{
+    display: grid;
+    width: 114em;
+    grid-gap: 6rem;
+    grid-template: repeat(auto-fit,minmax(30rem,1fr));
+    align-items: start;
+}
+.grid-item{
+    background-color: rgb(187, 255, 127);
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgb(0, 0, 0, 0.5);
+}
+.card-img{
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.card-content{
+    padding: 2rem;
+}
+.card-header{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #0d0d0d;
+    margin-bottom: 1.5rem;
+}
+.card-text{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #3d3d3d;
+    margin-bottom: 2.5rem;
+}
+.card-btn{
+    display: block;
+    width: 50%;
+    padding: 1.5rem;
+    font-size:2rem ;
+    text-align: center;
+    color: #3363ff;
+    background-color: #d8e0fd;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+.card-btn:hover,
+.card-btn :active{
+background-color: #c2cffc;
+}
+.card-btn:hover span,
+.card-btn:active span{
+    margin-left: 1.5rem;
+}
+.grid{
+    float: left;
+    width: 31.9%;
+    height: 30%;
+    padding: 6px;
+}
+ 
+
